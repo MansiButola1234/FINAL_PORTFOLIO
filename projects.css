@@ -179,4 +179,30 @@
 
 .overview-btn:hover {
     background: #434190;
+}
+
+@media (max-width: 768px) {
+    .projects-section {
+        margin: 2rem 1rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .project-filter-bar {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .filter-btn {
+        padding: 0.7rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .project-item {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+    .project-overview {
+        padding: 2rem 1.5rem;
+    }
 } 
