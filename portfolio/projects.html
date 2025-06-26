@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span class="logo">My Portfolio</span>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="pese-lab.html">Pese Lab</a></li>
+            <li><a href="index.html#contact">Get in Touch</a></li>
+            <li><a href="my_resume (5).pdf" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-filter-bar">
+            <button class="filter-btn active" data-filter="all"><i class="fas fa-th-large"></i> All</button>
+            <button class="filter-btn" data-filter="python"><i class="fab fa-python"></i> Python</button>
+            <button class="filter-btn" data-filter="web"><i class="fas fa-globe"></i> Web Development</button>
+            <button class="filter-btn" data-filter="ai"><i class="fas fa-brain"></i> AI/ML</button>
+            <button class="filter-btn" data-filter="system"><i class="fas fa-microchip"></i> System</button>
+        </div>
+        <div class="project-list">
+            <div class="project-item" data-category="python">
+                <i class="fab fa-python fa-2x" style="color:#009ffd; margin-bottom: 0.7rem;"></i>
+                <h3>Neuro Compiler</h3>
+                <p class="project-desc">Built a compiler in Python for a domain-specific language with lexical analysis, parsing (AST), and IR code generation. Implemented optimizations like constant folding and dead code elimination, and executed code using a custom virtual machine.</p>
+                <p><strong>Technologies:</strong> Python</p>
+                <p><strong>Date:</strong> [ april 2025 -  june 2025]</p>
+                <a href="https://github.com/Kirti-Kumari337/CompilerProject.git" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item" data-category="web">
+                <i class="fas fa-globe fa-2x" style="color:#009ffd; margin-bottom: 0.7rem;"></i>
+                <h3>Her Shield Web App</h3>
+                <p class="project-desc">A web application focused on women's safety and empowerment.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Date:</strong> [ april 2025 -  april 2025]</p>
+                <a href="https://github.com/MansiButola1234/portfolio.git" target="_blank">View on GitHub</a>
+            </div>
+        
+            <div class="project-item" data-category="ai">
+                <i class="fas fa-brain fa-2x" style="color:#009ffd; margin-bottom: 0.7rem;"></i>
+                <h3>Election Result Prediction</h3>
+                <p class="project-desc">An AI/ML project that predicts election results using sentiment analysis on social media data, leveraging NLP techniques.</p>
+                <p><strong>Technologies:</strong>Scikit-learn,Seaborn and Matplotlib,VADER, BERT Python, NLP, Sentiment Analysis, Jupyter Notebook</p>
+                <p><strong>Date:</strong> [(feb,2025- march,2025)]</p>
+                <a href="https://github.com/MansiButola1234/Election-result-prediction.git" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item" data-category="web">
+                <i class="fas fa-globe fa-2x" style="color:#009ffd; margin-bottom: 0.7rem;"></i>
+                <h3>Portfolio Website</h3>
+                <p class="project-desc">A personal portfolio website to showcase my skills, projects, and resume. Built with a modern, responsive design.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Date:</strong> [may 2025-june 2025]</p>
+                <a href="https://github.com/MansiButola1234/portfolio.git" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item" data-category="system">
+                <i class="fas fa-microchip fa-2x" style="color:#009ffd; margin-bottom: 0.7rem;"></i>
+                <h3>Custom Unix Shell</h3>
+                <p class="project-desc">Built a lightweight shell in C for Linux, supporting built-in and external commands with features like piping, I/O redirection, and background execution. Used system calls like fork(), execvp(), dup2(), and pipe() for process and file descriptor management.</p>
+                <p><strong>Technologies:</strong> C, Linux, System Programming</p>
+                <p><strong>Date:</strong> [ april 2025- june 2025]</p>
+                <a href="https://github.com/Vaishnaviii907/Minishell-in-C.git" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overviews (visible in All section) -->
+    <div class="project-overviews" id="project-overviews">
+        <!-- Neuro Compiler Overview -->
+        <div class="project-overview">
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Compiler</span>
+                <span class="tag">AST</span>
+            </div>
+            <h2>Neuro Compiler</h2>
+            <h4>Project Overview</h4>
+            <p>Built a compiler in Python for a domain-specific language with lexical analysis, parsing (AST), and IR code generation. Implemented optimizations like constant folding and dead code elimination, and executed code using a custom virtual machine.</p>
+            <h4>Technical Details</h4>
+            <ul>
+                <li>Lexical analysis and parsing using custom algorithms</li>
+                <li>AST and IR code generation</li>
+                <li>Constant folding and dead code elimination</li>
+                <li>Custom virtual machine for code execution</li>
+            </ul>
+            <a class="overview-btn" href="https://github.com/Kirti-Kumari337/CompilerProject.git" target="_blank"><i class="fab fa-github"></i> View Code</a>
+        </div>
+        <!-- Her Shield Web App Overview -->
+        <div class="project-overview">
+            <div class="project-tags">
+                <span class="tag">Web Development</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+            </div>
+            <h2>Her Shield Web App</h2>
+            <h4>Project Overview</h4>
+            <p>A web application focused on women's safety and empowerment, providing features for emergency alerts, location sharing, and community support.</p>
+            <h4>Technical Details</h4>
+            <ul>
+                <li>Responsive UI with HTML, CSS, and JavaScript</li>
+                <li>Real-time location sharing and alert system</li>
+                <li>Community support and resources integration</li>
+            </ul>
+            <a class="overview-btn" href="https://github.com/MansiButola1234/portfolio.git" target="_blank"><i class="fab fa-github"></i> View Code</a>
+        </div>
+        <!-- Portfolio Website Overview -->
+        <div class="project-overview">
+            <div class="project-tags">
+                <span class="tag">Web Development</span>
+                <span class="tag">Portfolio</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+            </div>
+            <h2>Portfolio Website</h2>
+            <h4>Project Overview</h4>
+            <p>A personal portfolio website to showcase my skills, projects, and resume. Built with a modern, responsive design and interactive features.</p>
+            <h4>Technical Details</h4>
+            <ul>
+                <li>Responsive design for all devices</li>
+                <li>Project filtering and interactive UI</li>
+                <li>Downloadable resume and contact form</li>
+            </ul>
+            <a class="overview-btn" href="https://github.com/MansiButola1234/portfolio.git" target="_blank"><i class="fab fa-github"></i> View Code</a>
+        </div>
+        <!-- Election Result Prediction Overview -->
+        <div class="project-overview">
+            <div class="project-tags">
+                <span class="tag">AI/ML</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Sentiment Analysis</span>
+                <span class="tag">Python</span>
+            </div>
+            <h2>Election Result Prediction</h2>
+            <h4>Project Overview</h4>
+            <p>An AI/ML project that predicts election results using sentiment analysis on social media data, leveraging NLP techniques and advanced models.</p>
+            <h4>Technical Details</h4>
+            <ul>
+                <li>Used Scikit-learn, Seaborn, Matplotlib, VADER, and BERT</li>
+                <li>Data preprocessing and feature engineering</li>
+                <li>Model training and evaluation</li>
+            </ul>
+            <a class="overview-btn" href="https://github.com/MansiButola1234/Election-result-prediction.git" target="_blank"><i class="fab fa-github"></i> View Code</a>
+        </div>
+        <!-- Custom Unix Shell Overview -->
+        <div class="project-overview">
+            <div class="project-tags">
+                <span class="tag">C</span>
+                <span class="tag">Linux</span>
+                <span class="tag">System Programming</span>
+            </div>
+            <h2>Custom Unix Shell</h2>
+            <h4>Project Overview</h4>
+            <p>Built a lightweight shell in C for Linux, supporting built-in and external commands with features like piping, I/O redirection, and background execution.</p>
+            <h4>Technical Details</h4>
+            <ul>
+                <li>System calls: fork(), execvp(), dup2(), pipe()</li>
+                <li>Command parsing and execution</li>
+                <li>Support for piping, redirection, and background jobs</li>
+            </ul>
+            <a class="overview-btn" href="https://github.com/Vaishnaviii907/Minishell-in-C.git" target="_blank"><i class="fab fa-github"></i> View Code</a>
+        </div>
+    </div>
+
+    <script>
+    // Project filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectItems = document.querySelectorAll('.project-item');
+    const projectOverviews = document.getElementById('project-overviews');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelector('.filter-btn.active').classList.remove('active');
+            btn.classList.add('active');
+            const filter = btn.getAttribute('data-filter');
+
+            // Show/hide project cards
+            projectItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+
+            // Show/hide overview section
+            if (filter === 'all') {
+                projectOverviews.style.display = 'flex';
+            } else {
+                projectOverviews.style.display = 'none';
+            }
+        });
+    });
+    </script>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
